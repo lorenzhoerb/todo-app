@@ -1,0 +1,26 @@
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.Todo-description {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.Todo-button-remove {
+  background-color: white;
+  border: none;
+  color: #de5246;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.Todo-button-remove:hover {
+  color: #bd483e;
+}
